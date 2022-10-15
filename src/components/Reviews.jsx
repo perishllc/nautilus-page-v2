@@ -262,10 +262,10 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
-          Everyone loves nautilus // todo
+          TODO
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          // todo
+          TODO
         </p>
         <ReviewGrid />
       </Container>
