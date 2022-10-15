@@ -358,7 +358,7 @@ export function Hero() {
                 <PlayIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2.5">Watch the video</span>
               </Button> */}
-              <StoreLinks/>
+              <StoreLinks />
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
@@ -366,7 +366,8 @@ export function Hero() {
             <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
               <PhoneFrame className="mx-auto max-w-[366px]" priority>
                 {/* <AppDemo /> */}
-                <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/welcome_intro_screen.png?raw=true"/>
+                {/* <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/welcome_intro_screen.png?raw=true"/> */}
+                <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/home_demo_cards_screen.png?raw=true" />
               </PhoneFrame>
             </div>
           </div>
