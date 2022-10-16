@@ -359,7 +359,7 @@ function InvestScreen({ custom, animated = false }) {
       </MotionAppScreenBody> */}
 
       <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})}>
-        <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/receive_screen.png?raw=true" />
+        <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/gift_card_screen.png?raw=true" />
       </MotionAppScreenBody>
     </AppScreen>
   )
