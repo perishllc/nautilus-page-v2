@@ -258,7 +258,7 @@ export function Reviews() {
       className="pt-20 pb-16 sm:pt-32 sm:pb-24"
     >
       <Container>
-        <h2
+        {/* <h2
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
@@ -266,7 +266,7 @@ export function Reviews() {
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
           TODO
-        </p>
+        </p> */}
         <ReviewGrid />
       </Container>
     </section>
