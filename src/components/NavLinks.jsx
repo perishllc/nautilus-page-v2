@@ -2,14 +2,22 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
 
-export function NavLinks() {
+export function NavLinks({ header = true }) {
   let [hoveredIndex, setHoveredIndex] = useState(null)
 
-  return [
+  let links = [
     ['Features', '#features'],
     ['Reviews', '#reviews'],
     ['FAQs', '#faqs'],
-  ].map(([label, href], index) => (
+    ['Privacy', "/privacy"],
+    ['EULA', "/eula"],
+  ];
+
+  if (header) {
+    links = links.slice(0, 3);
+  }
+
+  return links.map(([label, href], index) => (
     <Link
       key={label}
       href={href}
