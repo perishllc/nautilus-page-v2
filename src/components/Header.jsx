@@ -115,7 +115,7 @@ export function Header() {
                             {/* <Button href="/login" variant="outline">
                               Log in
                             </Button> */}
-                            <Button href="https://nautilus.io/promo">Download the app</Button>
+                            <Button href="/promo">Download the app</Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -127,7 +127,7 @@ export function Header() {
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
               Log in
             </Button> */}
-            <Button href="https://nautilus.io/promo" className="hidden lg:block">
+            <Button href="/promo" className="hidden lg:block">
               Download
             </Button>
           </div>

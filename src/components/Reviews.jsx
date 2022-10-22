@@ -19,8 +19,8 @@ const reviews = [
     rating: 5,
   },
   {
-    title: '',
-    body: 'Previous issues mentioned were fixed in a quick turnaround! Works as expected now! Pretty clean. Cheers',
+    title: 'Previous issues mentioned were fixed in a quick turnaround! Works as expected now! Pretty clean. Cheers',
+    body: '',
     author: 'l mf',
     rating: 5,
   },
@@ -60,42 +60,42 @@ const reviews = [
     author: 'goodguythai',
     rating: 5,
   },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
-  {
-    title: '',
-    body: '',
-    author: '',
-    rating: 5,
-  },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
+  // {
+  //   title: '',
+  //   body: '',
+  //   author: '',
+  //   rating: 5,
+  // },
 ]
 
 function StarIcon(props) {
@@ -168,7 +168,7 @@ function splitArray(array, numParts) {
 function ReviewColumn({
   className,
   reviews,
-  reviewClassName = () => {},
+  reviewClassName = () => { },
   msPerPixel = 0,
 }) {
   let columnRef = useRef()
@@ -223,7 +223,7 @@ function ReviewGrid() {
             reviewClassName={(reviewIndex) =>
               clsx(
                 reviewIndex >= columns[0].length + columns[2][0].length &&
-                  'md:hidden',
+                'md:hidden',
                 reviewIndex >= columns[0].length && 'lg:hidden'
               )
             }
@@ -255,8 +255,9 @@ export function Reviews() {
     <section
       id="reviews"
       aria-labelledby="reviews-title"
-      className="pt-20 pb-16 sm:pt-32 sm:pb-24"
+      className="pt-20 pb-16 sm:pt-32 sm:pb-24 relative"
     >
+
       <Container>
         {/* <h2
           id="reviews-title"
