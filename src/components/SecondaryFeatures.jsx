@@ -6,7 +6,7 @@ const features = [
   {
     name: 'Payment Requests',
     description:
-      'Easily request payments from friends and family using requests.',
+      'Easily get payments from friends and family using requests.',
     icon: DeviceArrowIcon,
   },
   {
@@ -18,7 +18,7 @@ const features = [
   {
     name: 'Fast & Easy to use.',
     description:
-      'Responsive and Fast design are at the heart of making Nautilus so easy to use.',
+      'Responsive and Fast design are at the heart of what makes Nautilus so easy to use.',
     icon: DeviceClockIcon,
   },
   {
