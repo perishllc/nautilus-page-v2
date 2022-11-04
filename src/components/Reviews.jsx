@@ -60,12 +60,12 @@ const reviews = [
     author: 'goodguythai',
     rating: 5,
   },
-  // {
-  //   title: '',
-  //   body: '',
-  //   author: '',
-  //   rating: 5,
-  // },
+  {
+    title: 'In my opinion the best nano wallet out there! Packed with features and continuous improvements - awesome wallet!',
+    body: '',
+    author: 'Forest Horsman',
+    rating: 5,
+  },
   // {
   //   title: '',
   //   body: '',
