@@ -11,7 +11,7 @@ export default function Hcaptcha() {
         <title>Nautilus Captcha</title>
       </Head>
 
-      <Script src="https://hcaptcha.com/1/api.js" />
+      <Script id="hcaptcha-script" src="https://hcaptcha.com/1/api.js" />
 
       <div className="bg-[#ff9966] h-full">
         <div className="h-14" />
