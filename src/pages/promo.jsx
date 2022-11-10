@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 export default function Promo() {
   
   useEffect(() => {
-    window.location.replace("https://app.nautilus.io/irAOpJKaIsb");
+    window.location.replace("https://app.nautilus.io/gz6sZxOKQub");
   } , []);
 
   return (
