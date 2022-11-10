@@ -31,6 +31,7 @@ export default function Hcaptcha() {
       </div>
 
       <Script
+        id="hcaptcha-callback"
         dangerouslySetInnerHTML={{
           __html: `
           function captchaCallback(response) {
