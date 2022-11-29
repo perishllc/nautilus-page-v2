@@ -72,7 +72,7 @@ export function Footer() {
           </form> */}
           <div></div>
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; Copyright Perish LLC {new Date().getFullYear()}. All rights reserved.
+            &copy; Perish LLC {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
       </Container>

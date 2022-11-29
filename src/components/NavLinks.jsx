@@ -8,7 +8,8 @@ export function NavLinks({ header = true }) {
   let links = [
     ['Features', '#features'],
     ['Reviews', '#reviews'],
-    ['FAQs', '#faqs'],
+    // ['FAQs', '#faqs'],
+    ['Discord', 'https://chat.perish.co'],
     ['Privacy', "/privacy"],
     ['EULA', "/eula"],
   ];
