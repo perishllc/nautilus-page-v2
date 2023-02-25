@@ -196,7 +196,7 @@ function InviteScreen({ custom, animated = false }) {
           </div>
         </div>
       </MotionAppScreenBody> */}
-      <MotionAppScreenBody {...(animated ? headerAnimation : {})} className="bg-[#181818]">
+      <MotionAppScreenBody {...(animated ? headerAnimation : {})} className="!bg-[#0a0a0a] mt-0 pt-6">
         <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/send_screen.png?raw=true" />
       </MotionAppScreenBody>
       {/* <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/send_screen.png?raw=true" /> */}
@@ -301,7 +301,7 @@ function StocksScreen({ custom, animated = false }) {
         </div>
       </MotionAppScreenBody> */}
 
-      <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})} className="bg-[#181818]">
+      <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})} className="!bg-[#0a0a0a] mt-0 pt-6">
         <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/receive_screen.png?raw=true" />
       </MotionAppScreenBody>
     </AppScreen>
@@ -358,7 +358,7 @@ function InvestScreen({ custom, animated = false }) {
         </div>
       </MotionAppScreenBody> */}
 
-      <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})} className="bg-[#181818]">
+      <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})} className="!bg-[#181818] mt-0 pt-6">
         <img src="https://github.com/perishllc/nautilus/blob/main/screenshots/android/1080-2116/gift_card_screen.png?raw=true" />
       </MotionAppScreenBody>
     </AppScreen>
@@ -388,7 +388,7 @@ function FeaturesDesktop() {
     },
     100,
     { leading: true }
-  )
+  );
 
   return (
     <Tab.Group
@@ -441,7 +441,7 @@ function FeaturesDesktop() {
                   <Tab.Panel
                     static
                     key={feature.name + changeCount}
-                    className="bg-[#0a0a0a] col-start-1 row-start-1 flex focus:outline-offset-[32px] [&:not(:focus-visible)]:focus:outline-none"
+                    className="bg-[#181818] col-start-1 row-start-1 flex focus:outline-offset-[32px] [&:not(:focus-visible)]:focus:outline-none"
                   >
                     <feature.screen
                       animated
@@ -489,6 +489,7 @@ function FeaturesMobile() {
       observer.disconnect()
     }
   }, [slideContainerRef, slideRefs])
+
 
   return (
     <>
